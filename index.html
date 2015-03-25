@@ -1,0 +1,56 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="author" lang="en" content="Nathaniel Beaver">
+        <title>User-supplied advertising preferences</title>
+        <link rel="stylesheet" href="index.css">
+        <script type="text/javascript">
+            function listAdPrefs() {
+                if (navigator.userAdPrefs) {
+                    var desirable_list = "";
+                    for (var i = 0; i < navigator.userAdPrefs.yes.length; i++) {
+                        desirable_list += navigator.userAdPrefs.yes[i] + "<br>\n";
+                    }
+                    document.getElementById("desirable").innerHTML = desirable_list;
+                    var undesirable_list = "";
+                    for (var i = 0; i < navigator.userAdPrefs.no.length; i++) {
+                        undesirable_list += navigator.userAdPrefs.no[i] + "<br>\n";
+                    }
+                    document.getElementById("undesirable").innerHTML = undesirable_list;
+                } else {
+                    alert("You must enable the userscript for this to work.\nnavigator.userAdPrefs = " + navigator.userAdPrefs);
+                }
+            }
+        </script>
+    </head>
+    <body onload="listAdPrefs();">
+
+        <h1>
+            User-supplied advertising preferences
+        </h1>
+
+        <h2>
+            It appears you want to see ads about these things:
+        </h2>
+
+        <p>
+        <div id="desirable">
+        </div>
+        </p>
+
+        <h2>
+            It appears you do not want to see ads about these things:
+        </h2>
+
+        <p>
+        <div id="undesirable">
+        </div>
+        </p>
+
+        <p>
+        Here is the
+        <a href="User_Advertising_Preferences.user.js">userscript</a>.
+        </p>
+    </body>
+</html>
