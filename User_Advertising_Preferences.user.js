@@ -22,6 +22,7 @@ navigator.userAdPrefs =
         "The Man Who Sold America",
         "Mary Wells Lawrence",
         "Jean Wade Rindlaub",
+        "Powdermilk Biscuits",
     ],
     "no" : [
         "Then We Came to the End",
