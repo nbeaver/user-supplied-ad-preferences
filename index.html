@@ -2,7 +2,6 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <meta name="author" lang="en" content="Nathaniel Beaver">
         <title>User-supplied advertising preferences</title>
         <link rel="stylesheet" href="index.css">
         <script type="text/javascript">
@@ -19,7 +18,7 @@
                     }
                     document.getElementById("undesirable").innerHTML = undesirable_list;
                 } else {
-                    alert("You must enable the userscript for this to work.\nnavigator.userAdPrefs = " + navigator.userAdPrefs);
+                    document.body.innerHTML = "You must install and enable the <a href='User_Advertising_Preferences.user.js'>userscript</a> for this to work.";
                 }
             }
         </script>
