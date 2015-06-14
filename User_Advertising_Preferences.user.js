@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        User Advertising Preferences
 // @namespace   http://userscripts.org
-// @description Tell advertisers what you want.
+// @description Tell websites what advertisements you want.
 // @include     http://*
 // @include     https://*
 // @include     file://*
