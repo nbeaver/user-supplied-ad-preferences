@@ -120,10 +120,12 @@ to the standard ``window.navigator`` browser object.
 It runs `before the DOM content is loaded`_
 so that scripts can access it.
 
-See the `example webpage`_
-for a simple demonstration of how this can be used.
+See the `example webpage`_ on Github
+for a simple demonstration of how this can be used,
+or examine the `raw HTML`_.
 
-.. _example webpage: index.html
+.. _example webpage: https://nbeaver.github.io/user-supplied-ad-preferences/
+.. _raw HTML: index.html
 .. _before the DOM content is loaded: http://wiki.greasespot.net/Metadata_Block#.40run-at
 
 -----------------------------------
