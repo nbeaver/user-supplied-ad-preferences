@@ -19,13 +19,13 @@ about what advertising you want from websites you visit.
 
 .. _userscript: User_Advertising_Preferences.user.js
 
------------------------
-Surely you are jesting.
------------------------
+------------------------------------------------
+Surely you are jesting. That is a terrible idea.
+------------------------------------------------
 
 On the contrary, I am in earnest.
 
-I agree that it sounds odd.
+I agree it does sound like a terrible idea.
 
 --------------------------------------------------------------------------------
 Do we really want to make it easier for websites to gather personal information?
@@ -40,8 +40,8 @@ the `obstacles`_ to online privacy are `seemingly`_ `insurmountable`_.
 But what about voluntarily telling websites what ads you want to see,
 instead of making them guess?
 
-It would at least give some websites a potential alternative
-to making money by `helping ad companies stalk people and build dossiers of their online behavior`_.
+It would at least give some websites an alternative to making money by
+`helping ad companies stalk people and build dossiers of their online behavior`_.
 
 .. _easy: https://signup.clicksor.com/advertise_here.php
 .. _profitable: https://www.google.com/adwords/
@@ -61,13 +61,13 @@ I do, but I sometimes worry about unintended consequences
 and longer-term problems.
 
 Adblock Plus, for example, `permits "non-intrusive" ads`_,
-and ad-blockers are helpless against `native advertising`_.
+and ad-blockers are ineffectual against `native advertising`_.
 
 I fear that `what happened to SourceForge`_ could happen to other sites.
 
 .. _permits "non-intrusive" ads: https://adblockplus.org/en/acceptable-ads
 .. _native advertising: http://www.targetmarketingmag.com/post/why-advertisers-need-think-native/all/
-.. _what happened to SourceForge: http://arstechnica.com/information-technology/2015/05/sourceforge-grabs-gimp-for-windows-account-wraps-installer-in-bundle-pushing-adware/
+.. _what happened to SourceForge: https://notepad-plus-plus.org/news/notepad-plus-plus-leaves-sf.html
 
 
 --------------------------------------------------
@@ -77,9 +77,9 @@ Won't people be dishonest about their preferences?
 Even if the people visiting the website aren't honest about their preferences,
 it's still a cheap and potentially useful datapoint for the owner of the website.
 
-------------------------------------------------------
-Is this basically Facebook "Likes" in the browser DOM?
-------------------------------------------------------
+---------------------------------------------------------
+Isn't this basically Facebook "Likes" in the browser DOM?
+---------------------------------------------------------
 
 I suppose it could could be used that way,
 but I hope it doesn't become that.
@@ -113,7 +113,7 @@ or block the ads entirely.
 How does it work?
 -----------------
 
-It's a Greasemonkey userscript
+It's a `Greasemonkey`_ userscript
 that adds a ``userAdPrefs`` property
 to the standard ``window.navigator`` browser object.
 
@@ -124,6 +124,7 @@ See the `example webpage`_ on Github
 for a simple demonstration of how this can be used,
 or examine the `raw HTML`_.
 
+.. _Greasemonkey: http://www.greasespot.net/
 .. _example webpage: https://nbeaver.github.io/user-supplied-ad-preferences/
 .. _raw HTML: index.html
 .. _before the DOM content is loaded: http://wiki.greasespot.net/Metadata_Block#.40run-at
