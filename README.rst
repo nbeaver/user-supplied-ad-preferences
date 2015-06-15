@@ -77,9 +77,9 @@ Won't people be dishonest about their preferences?
 Even if the people visiting the website aren't honest about their preferences,
 it's still a cheap and potentially useful datapoint for the owner of the website.
 
--------------------------------------------------------------------
-So this is sort of like Facebook likes, but built into the browser?
--------------------------------------------------------------------
+------------------------------------------------------
+Is this basically Facebook "Likes" in the browser DOM?
+------------------------------------------------------
 
 I suppose it could could be used that way,
 but I hope it doesn't become that.
@@ -92,7 +92,7 @@ but that's just a proof of concept.
 The browser can hold arbitrary JSON data,
 so there is plenty of room for exploration.
 
-Moreover, preferences are `decentralized`_ in a way that Facebook's silo of Likes are not.
+Moreover, preferences are `decentralized`_ in a way that Facebook's silo of "Likes" are not.
 
 Most importantly, though, the preferences are stored as data that only the browser's user can control.
 
