@@ -2,11 +2,19 @@
 An advertising preferences property for the web browser.
 ========================================================
 
--------------
-What is this?
--------------
+:Author: Nathaniel Beaver
+:Date: $Date: 2014-06-14 (Sunday, 14 June 2015) $
+:Copyright: This work is licensed under a `Creative Commons 4.0 International License`_.
 
-It is a `userscript`_ that adds information to your browser
+.. _Creative Commons 4.0 International License: https://creativecommons.org/licenses/by/4.0/
+
+.. contents::
+
+-------------------
+What is this about?
+-------------------
+
+Mainly a `userscript`_ that adds information to your browser
 about what advertising you want from websites you visit.
 
 .. _userscript: User_Advertising_Preferences.user.js
@@ -18,22 +26,6 @@ Surely you are jesting.
 On the contrary, I am in earnest.
 
 I agree that it sounds odd.
-
---------------------------------------
-Why not just use ad-blocking software?
---------------------------------------
-
-I do, but I sometimes worry about unintended consequences
-and longer-term problems.
-
-Adblock Plus, for example, `permits "non-intrusive" ads`_,
-and ad-blockers are helpless against `native advertising`_.
-
-I fear that `what happened to SourceForge`_ could happen to other sites.
-
-.. _permits "non-intrusive" ads: https://adblockplus.org/en/acceptable-ads
-.. _native advertising: http://www.targetmarketingmag.com/post/why-advertisers-need-think-native/all/
-.. _what happened to SourceForge: http://arstechnica.com/information-technology/2015/05/sourceforge-grabs-gimp-for-windows-account-wraps-installer-in-bundle-pushing-adware/
 
 --------------------------------------------------------------------------------
 Do we really want to make it easier for websites to gather personal information?
@@ -61,9 +53,26 @@ to making money by `helping ad companies stalk people and build dossiers of thei
 .. _insurmountable: http://www.washingtonpost.com/business/technology/verizon-atandt-tracking-their-users-with-super-cookies/2014/11/03/7bbbf382-6395-11e4-bb14-4cfea1e742d5_story.html
 .. _helping ad companies stalk people and build dossiers of their online behavior: https://support.google.com/adwords/answer/1704341?hl=en
 
----------------------------------------------------------
-Won't people be less than honest about their preferences?
----------------------------------------------------------
+--------------------------------------
+Why not just use ad-blocking software?
+--------------------------------------
+
+I do, but I sometimes worry about unintended consequences
+and longer-term problems.
+
+Adblock Plus, for example, `permits "non-intrusive" ads`_,
+and ad-blockers are helpless against `native advertising`_.
+
+I fear that `what happened to SourceForge`_ could happen to other sites.
+
+.. _permits "non-intrusive" ads: https://adblockplus.org/en/acceptable-ads
+.. _native advertising: http://www.targetmarketingmag.com/post/why-advertisers-need-think-native/all/
+.. _what happened to SourceForge: http://arstechnica.com/information-technology/2015/05/sourceforge-grabs-gimp-for-windows-account-wraps-installer-in-bundle-pushing-adware/
+
+
+--------------------------------------------------
+Won't people be dishonest about their preferences?
+--------------------------------------------------
 
 Even if the people visiting the website aren't honest about their preferences,
 it's still a cheap and potentially useful datapoint for the owner of the website.
@@ -89,12 +98,12 @@ Most importantly, though, the preferences are stored as data that only the brows
 
 .. _decentralized: http://techcrunch.com/2015/01/10/decentralize-all-the-things/
 
-----------------------------------------------------------------
-Is it wise to include "dislikes"? Won't that encourage griefing?
-----------------------------------------------------------------
+------------------------------------------------------------------------------------
+Is it wise to include a field for ads you don't want? Won't that encourage griefing?
+------------------------------------------------------------------------------------
 
 Griefers gonna grief.
-If a website intentionally irks its users,
+If a website is intentionally irritating its users,
 unwanted ads are the least of its problems.
 
 Don't visit those websites,
