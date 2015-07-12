@@ -40,8 +40,11 @@ the `obstacles`_ to online privacy are `seemingly`_ `insurmountable`_.
 But what about voluntarily telling websites what ads you want to see,
 instead of making them guess?
 
+What if instead of letting Google tell advertisers what `your interests are`_,
+you told advertisers youself?
+
 It would at least give some websites an alternative to making money by
-`helping ad companies stalk people and build dossiers of their online behavior`_.
+`helping ad companies stalk people`_ and `build dossiers of their online behavior`_.
 
 .. _easy: https://signup.clicksor.com/advertise_here.php
 .. _profitable: https://www.google.com/adwords/
@@ -51,7 +54,9 @@ It would at least give some websites an alternative to making money by
 .. _obstacles: https://panopticlick.eff.org/
 .. _seemingly: http://boingboing.net/2015/06/08/internet-users-care-about-thei.html
 .. _insurmountable: http://www.washingtonpost.com/business/technology/verizon-atandt-tracking-their-users-with-super-cookies/2014/11/03/7bbbf382-6395-11e4-bb14-4cfea1e742d5_story.html
-.. _helping ad companies stalk people and build dossiers of their online behavior: https://support.google.com/adwords/answer/1704341?hl=en
+.. _your interests are: https://www.google.com/settings/ads
+.. _helping ad companies stalk people: https://support.google.com/adwords/answer/1704341?hl=en
+.. _build dossiers of their online behavior: http://www.youradchoices.com/control.aspx
 
 --------------------------------------
 Why not just use ad-blocking software?
@@ -77,6 +82,12 @@ Won't people be dishonest about their preferences?
 Even if the people visiting the website aren't honest about their preferences,
 it's still a cheap and potentially useful datapoint for the owner of the website.
 
+Furthermore, there's already a large commercial endeavor called `AdChoices`_
+that implements "interest-based advertising" based on the assumption
+that people will be at least partially honest about their preferences.
+
+.. _AdChoices: http://www.youradchoices.com/faq.aspx
+
 ---------------------------------------------------------
 Isn't this basically Facebook "Likes" in the browser DOM?
 ---------------------------------------------------------
@@ -92,7 +103,8 @@ but that's just a proof of concept.
 The browser can hold arbitrary JSON data,
 so there is plenty of room for exploration.
 
-Moreover, preferences are `decentralized`_ in a way that Facebook's silo of "Likes" are not.
+Moreover, the browser-controlled data are `decentralized`_ in a way that
+Facebook "Likes" and Adchoices preferences are not.
 
 Most importantly, though, the preferences are stored as data that only the browser's user can control.
 
