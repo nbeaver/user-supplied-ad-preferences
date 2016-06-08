@@ -3,7 +3,6 @@ An advertising preferences property for the web browser.
 ========================================================
 
 :Author: Nathaniel Beaver
-:Date: $Date: 2014-06-14 (Sunday, 14 June 2015) $
 :Copyright: This work is licensed under a `Creative Commons 4.0 International License`_.
 
 .. _Creative Commons 4.0 International License: https://creativecommons.org/licenses/by/4.0/
