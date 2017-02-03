@@ -151,3 +151,9 @@ so it's useless, but not in an obtrusive or expensive way.
 
 Currently the only way to change the preferences data is to edit the userscript by hand;
 that's a little awkward to do on a regular basis.
+
+-------
+License
+-------
+
+The `userscript <User_Advertising_Preferences.user.js>`_ is licensed under the `MIT license <LICENSE.txt>`_.
